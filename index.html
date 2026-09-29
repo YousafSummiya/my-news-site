@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My News Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f4f6f9; }
+    .card { border: 0; border-radius: 0.75rem; transition: transform .15s, box-shadow .15s; }
+    .card:hover { transform: translateY(-4px); box-shadow: 0 .75rem 1.5rem rgba(0,0,0,.12); }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">📰 My News Portal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+              aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Technology</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <h1 class="h3 mb-4">Latest News</h1>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-primary align-self-start mb-2">Technology</span>
+            <h2 class="h5 card-title">AI Tools Transform Classrooms</h2>
+            <p class="card-text text-muted">Schools worldwide are adopting AI-powered tutoring tools to personalise learning for students.</p>
+            <a href="#" class="btn btn-primary mt-auto align-self-start">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-success align-self-start mb-2">Environment</span>
+            <h2 class="h5 card-title">Solar Power Hits Record Output</h2>
+            <p class="card-text text-muted">Renewable energy generation reached an all-time high this quarter, led by new solar installations.</p>
+            <a href="#" class="btn btn-primary mt-auto align-self-start">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-danger align-self-start mb-2">Sports</span>
+            <h2 class="h5 card-title">Underdogs Clinch Championship</h2>
+            <p class="card-text text-muted">In a thrilling final, the underdog team secured a last-minute victory to win the title.</p>
+            <a href="#" class="btn btn-primary mt-auto align-self-start">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-warning align-self-start mb-2">Business</span>
+            <h2 class="h5 card-title">Markets Rally on Economic Data</h2>
+            <p class="card-text text-muted">Global stock markets climbed after encouraging inflation and employment figures were released.</p>
+            <a href="#" class="btn btn-primary mt-auto align-self-start">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-info align-self-start mb-2">Science</span>
+            <h2 class="h5 card-title">New Exoplanet Discovered</h2>
+            <p class="card-text text-muted">Astronomers have identified a potentially habitable planet orbiting a nearby star.</p>
+            <a href="#" class="btn btn-primary mt-auto align-self-start">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <span class="badge text-bg-secondary align-self-start mb-2">Health</span>
+            <h2 class="h5 card-title">Study Links Sleep to Better Focus</h2>
+            <p class="card-text text-muted">Researchers found that consistent sleep schedules significantly improve concentration and mood.</p>
+            <a href="#" class="btn btn-primary mt-auto align-self-start">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white-50 text-center py-3">
+    <small>&copy; 2026 My News Portal</small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
